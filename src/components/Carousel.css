@@ -1,1 +1,28 @@
 /* write your carousel css in this file */
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.leftbutton, .rightbutton{
+    background-color: darkgray;
+    border: 1px solid black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.leftbutton:hover , .rightbutton:hover{
+    background-color: white;
+}
+img{
+    width: 600px;
+    height: 700px;
+}
+.caption{
+    position: relative;
+    bottom: 37px;
+    color: white;
+    background-color: gray;
+    line-height: 0px;
+}
